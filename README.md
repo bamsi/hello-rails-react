@@ -1,24 +1,58 @@
-# README
+# Hello Rails React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple hello rails react project which implement a connection between a Ruby on Rails back-end and React front-end.
 
 Things you may want to cover:
 
-* Ruby version
+- Ruby version
+  Version 3.1.2
 
-* System dependencies
+- System dependencies
+  Run `bundle install` to install dependencies for rails
+  Run `npm install` to install react dependencies
 
-* Configuration
+- Configuration
+  To view the source code;
 
-* Database creation
+a) Clone the project
 
-* Database initialization
+    ```terminal
+    https://github.com/bamsi/hello-rails-react.git
+    ```
 
-* How to run the test suite
+b) View the folder - cd into the project directory
 
-* Services (job queues, cache servers, search engines, etc.)
+        ```terminal
+        cd hello-rails-react
 
-* Deployment instructions
+- Database initialization
+  c) Run migration
+  `rails db:migrate`
 
-* ...
+## Authors
+
+👤 **Haji Bamsi**
+
+- GitHub: [@Bamsi](https://github.com/bamsi)
+- Twitter: [@Bamsi](https://twitter.com/bamsi)
+- LinkedIn: [@bamsi](https://linkedin.com/in/bamsi)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
